@@ -22,4 +22,4 @@ jobs:
         uses: actions/upload-artifact@v4 # TÄMÄ OLI KRIITTINEN KORJAUS v3 -> v4
         with:
           name: valmis-ohjelma
-          path: dist/lautalaskin.exe
+          path: dist/lautajako_gui.exe
