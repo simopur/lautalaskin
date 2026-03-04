@@ -16,7 +16,7 @@ jobs:
         run: pip install pyinstaller
 
       - name: Build
-        run: pyinstaller --onefile --noconsole lautalaskin.py
+        run: pyinstaller --onefile --noconsole lautajako_gui.py
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4 # TÄMÄ OLI KRIITTINEN KORJAUS v3 -> v4
